@@ -1,6 +1,6 @@
 
 // Шток поршня
-export interface Stock {
+export interface Shaft {
     material?: string;
     heatCapacity?: number;          //  теплоемкость, J/K (Дж/К)
     specificHeatCapacity: number;   //  удельная теплоемкомть, J / kg*K (Дж / кг*К)
